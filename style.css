@@ -1,3 +1,8 @@
+/* font-family: 'Playfair Display',
+serif;
+font-family: 'Poppins',
+sans-serif; */
+
 :root {
     --primary-color: #ff00ff;
     --secondary-color: #f5f2fe;
@@ -16,10 +21,15 @@ h3 {
 
 h1 {
     font-size: 96px;
+    font-family: 'Playfair Display',serif;
+}
+span{
+    color: var(--primary-color);
 }
 
 h2 {
     font-size: 48px;
+    font-family: 'Poppins',sans-serif;
 }
 
 h3 {
